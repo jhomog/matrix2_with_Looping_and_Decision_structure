@@ -1,0 +1,27 @@
+public class matrix2_jhomog{
+public static void main(String[]args){
+//**Some matrix here**//
+int[][]matrix = new matrix[2][4];
+int[][]matrix1 ={{1,2,3,4},
+                 {5,6,7,7}};
+                 int[][]matrix2 = {{1,2,3,4},
+                                   {5,6,7,7}};
+                                   
+                                   int i,j,r=2,c=4;
+                                   Boolean x;
+                                   x = true;
+                                   
+                                   for(i=0;i<r;i++){
+                                   for(j=0;x&&j<c;j++){
+                                   if (matrix1[i][j] != matrix2[i][j])
+                                                                  {
+                                                                  System.out.println("The matrix are not equal");
+                                                                  x = false;
+                                                                  }
+                                                              System.out.println("The matrices are equal");
+                                                              System.out.println("Some satement here!");
+                                                      }
+                                                     }
+                                      }
+                           }
+                                   
